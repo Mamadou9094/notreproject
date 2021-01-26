@@ -1,13 +1,28 @@
 html{
     font-size   : 62.5%;
     font-family : Imbue;
-    padding :0;
+    
     box-sizing :border-box;
+    
+}
+
+body{
+   
+   background-color : rgb(120, 120, 180);   
+}
+
+#container{
+    
+    margin-left : 10%;
+    margin-right : 10%;
+    background-color: gray;
+
 }
 
 nav{
     padding:0;
     width : 100%;
+    
     border : 2px solid red;
     position : relative;
     transition : all .3s;
@@ -66,4 +81,40 @@ et les box de profil*/
     border : 1px solid silver;
 }
 
+/************************************/
+/******************ajout Css********/
+
+form{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    margin-top: 2%;
+    width: 30%;
+    
+}
+textarea{
+margin: 1%;
+width: 31%;
+height: 200px;
+
+}
+.button{
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    padding: 20px 50px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+    
+}
+footer{
+
+}
 
