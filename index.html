@@ -1,98 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="MyStyle.css" >    
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Imbue:wght@200&display=swap" rel="stylesheet"> 
+        <title>Notre_Site</title>   
+    </head>
 
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="MyStyle.css" >
-  
- <title>notreSit</title>
- 
- 
-</head>
+    <body>
+    <!----------------------------------------------------------------------------------------------->    
+                    <!-----------------Header----------------->
+        <header> 
+            <div id="banner"></div> <!------------Mettre un titre dans la bannière------------------->
+            <nav>
+                <ul >
+                    <li id="logo"><img src="img.jpg" width="10%" alt="logo"></li>
+                    <li><a href="#Qui">Qui somme nous</a></li>
+                    <li><a href="#services">Nos Services</a></li>
+                    <li><a href="#équipe">Notre équipe</a></li>
+                    <li><a href="#contacter">Nous contacter</a></li>
+                </ul>
+            </nav>
+        </header>    
+    <!------------------------------------------------------------------------------------------------>
+                    <!--------section qui nous sommes--------->
+        <section id="Qui"> 
+            <h2>Qui nous sommes</h2>
+            <p></p>
+        </section>
+    <!------------------------------------------------------------------------------------------------>    
+                    <!-----------section services---------------->
+        <section id="services">              
+            <h2>Nos services</h2>             <!---second section title-->
+            <div id="servicSec">              <!--bloc contenant les trois blocs services-->
+                        
+                <figure>                          <!--premier service-->
+                    <img src="#" alt="perservis"> <!--Icon-->
+                    <h3></h3>                     <!--service title-->
+                    <p></p>                       <!--description--> 
+                </figure>
 
-<body>
- <header> <!--strat of header-->
-<div id="banner"></div>
-<nav>
-    <ul>
-        <li><img src="img.jpg" width="10%" alt="logo"></li>
-        <li><a href="#Qui">Qui somme nous</a></li>
-        <li><a href="#services">Nos Services</a></li>
-        <li><a href="#équipe">Notre équipe</a></li>
-        <li><a href="#contacter">Nous contacter</a></li>
-    </ul>
-</nav>
- </header><!--end of header-->
+                <figure>                          <!--deuxième service-->
+                    <img src="#" alt="desServis">   
+                    <h3></h3>
+                    <p></p>
+                </figure>
+                
+                <figure>
+                    <img src="#" alt="troiServic"> <!--troisième service-->
+                    <h3></h3>
+                    <p></p>
+                </figure>
 
-<section id="Qui"><!--strat of section qui nous sommes-->
-   <h2>Qui nous sommes</h2>
-   <p></p>
-</section><!--end of section qui nous sommes-->
+            </div>
+        </section>
+ <!----------------------------------------------------------------------------------------------------->    
+                  <!----------Section profil de l'équipe----------->
+        <section id="equipe">
+            <h2>Notre équipe</h2> 
+            
+            <div>                           <!---buttons for slideshow--->
+                <button class="slideBtn"></button>   
+                <button class="slideBtn"></button>
+                <button class="slideBtn"></button>
+            </div>
+        
+            <div id="profilSection">       <!----block des profils------->
+                <article class="person">    <!-------Premier profil------->
+                    <img src="" alt=""/>    <!-------photo de profil------>
+                    <h3>Nom</h3>
+                    <p>g</p>                 <!-----description du profil-->
+                </article> 
 
-<section id="services"><!--start of services-->
-    <h2>Nos services</h2>
-    <div id="servicSec">
-    <figure>
-        <img src="#" alt="perservis"><!--  frist service-->
-       <h3></h3>
-       <p></p>
-    </figure>
-      <figure>
-         <img src="#" alt="desServis"><!--  secund service-->
-          <h3></h3>
-           <p></p>
-       </figure>
-     <figure>
-          </div>
-       <img src="#" alt="troiServic"><!--  thired service-->
-        <h3></h3>
-        <p></p>
-     </figure>
-      </section><!--end of services-->
+                <article class="person">    <!--------second profil------->
+                    <img src="" alt=""/>
+                    <h3>Nom</h3>
+                    <p>fdh</p>
+                </article>
 
-  <section id="équipe"><!--  start of équipe section-->
-     <h2>Notre équipe</h2>
-     <div>
-        <button></button>
-        <button></button><!-- buttons for slideshow-->
-        <button></button>
-     </div>
-    
-  <div id="équipeSec"><!--  start of frist person in équip-->
-<article class="person">
-    <img src="" alt="">
-    <h3>Nom</h3>
-<p></p>
-</article><!--  end of frist person in équip-->
-<article class="person"><!--  start of secund person in équip-->
-    <img src="" alt="">
-    <h3>Nom</h3>
-<p></p>
-</article><!--  end of secund person in équip-->
-<article class="person"><!--  start of third person in équip-->
-    <img src="" alt="">
-    <h3>Nom</h3>
-<p></p>
-</article><!--  end of third person in équip-->
-</div>
-</section><!--  end of équipe section-->
-<section id="contacter"><!--  start of contacter section-->
-    <h2>Nous contacter</h2>
-<form><!--  start of form contacter -->
-<input type="text" placeholder="Entre votre nom">
-<input type="email" placeholder="Entre votre email">
-<input type="number" placeholder="Entre votre phone number">
-<textarea></textarea>
-<button></button>
-</form>
-</section><!--  end of équipe section-->
-<footer><!--  start of footer-->
-    <p>copy right @ 2021</p>
-    <figure>
-        <img src="" alt="facebook">
-        <img src="" alt="twitter">
-        <img src="" alt="instragm">
-    </figure>
-</footer><!--  end of footer-->
-</body>
+                <article class="person">    <!--------second profil------->
+                    <img src="" alt=""/>
+                    <h3>Nom</h3>
+                    <p>fdh</p>
+                </article>
+            </div>
+        </section>
+<!---------------------------------------------------------------------------------------------------->    
+                     <!-----------Formulaire de Contact------------------>
+        <section id="contacter">
+            <h2>Nous contacter</h2>
+            <form><!--  start of form contacter -->
+                <input type="text" placeholder="Entre votre nom">
+                <input type="email" placeholder="Entre votre email">
+                <input type="number" placeholder="Entre votre phone number">
+                <textarea placeholder="Votre Message"></textarea> 
+                <input type=submit value="Soumettre"/>
+            </form>   
+        </section>
+<!----------------------------------------------------------------------------------------------------->   
+        <footer>
+            <figure>
+                <img src="" alt="facebook-icon"/>
+                <img src="" alt="twitter-icon"/>
+                <img src="" alt="instragm-icon"/>
+            </figure>
+            <p>Omnia_Mamadou_Charles_copyright@2021</p>
+        </footer>
+    </body>
 </html>

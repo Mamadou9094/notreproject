@@ -1,0 +1,69 @@
+html{
+    font-size   : 62.5%;
+    font-family : Imbue;
+    padding :0;
+    box-sizing :border-box;
+}
+
+nav{
+    padding:0;
+    width : 100%;
+    border : 2px solid red;
+    position : relative;
+    transition : all .3s;
+}
+
+nav ul{
+    display :flex;
+    list-style-type:none;
+    justify-content:space-around;
+}
+
+nav ul li{
+    flex-grow:1;
+    text-align : center;
+}
+
+nav a {
+    text-decoration : none;
+
+}
+
+#logo{
+    justify-self:self-start;
+    max-width:0;
+    overflow: hidden;
+}
+
+/**************************************/
+/************Section notre équipe******/
+
+/*contient le titre, les boutons de slide
+et les box de profil*/
+#equipe{
+ display:flex;
+ flex-direction : column;
+ align-items: center;
+ 
+}
+
+/*classe des boutons de slide*/
+.slideBtn{
+    /* border : 1px solid black;
+    border-radius : 100%;    */
+}
+
+/* div des box des profils*/
+#profilSection{
+    display : flex;
+    justify-content : space-around;
+    padding :10px;
+    width : 50%;
+}
+
+/*chaque  box de profil**/
+.person{
+    border : 1px solid silver;
+}
+
+
